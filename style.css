@@ -11,6 +11,7 @@
 }
 .heroarea{
     background-image: url(./images/hero-bg.jpg);
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +20,6 @@
     
     display: flex;
     align-items: center;
-    /* background-color: black; */
     padding-inline: 1.5rem;
     padding-block: 1rem;
 }
@@ -43,16 +43,15 @@
     font-size: 1.7em;
     color: #fff;
     padding: 4px 12px;
+    
 }
 .list_items{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
     flex-grow: 1;
 }
 .list_items_container{
-  /* background-color: blue;  */
   margin-left: auto; 
 }
 .list_items_container>ul{
@@ -74,5 +73,15 @@
     color: #fff;
     font-size: 1.6rem;
     margin-left: 24px;
+}
+@media screen and (max-width: 800px;) {
+    .toggle_menu>button{
+        background-color: transparent;
+        border: 1px solid transparent;
+        font-size: 1.7em;
+        color: #fff;
+        padding: 4px 12px;
+        display: none ;
+    }
 }
 
