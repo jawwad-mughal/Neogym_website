@@ -7,7 +7,7 @@
     font-family:  'Poppins' , sans-serif;
 }
 .heroarea{
-    background-image: url(../../../images/contact-img.jpg);
+    background-color: rgb(39,34,63);
     width: 100vw;
     height: 100vh;
     background-size: cover;
