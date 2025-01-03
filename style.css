@@ -97,12 +97,35 @@
     background-color: red;    
 }
 .search_icon>button{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
     color: #fff;
     font-size: 1.7rem;
     margin-left: 24px;
+}
+.section_main{
+    background-color: rgb(14, 66, 219);
+    height: 681px;
+}
+.main_content{
+    background-color: aquamarine;
+    text-align: center;
+}
+.heading1{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.heading2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.heading3{
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 @media (max-width: 800px) {
     .list_items{
