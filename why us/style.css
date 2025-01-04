@@ -8,7 +8,6 @@
 }
 .heroarea{
     background-image: url(../images/us-bg.jpg);
-    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 2rem;
+    padding-inline: 2.5rem;
     padding-block: .8rem;
 }
 
@@ -69,7 +68,7 @@
 .nav_link{
     margin-right: 50px;
     padding-top: 3px;
-    padding-inline: 8px; 
+    padding-inline: 4px; 
 }
 .nav_main_link>a{
     color: #fff;
